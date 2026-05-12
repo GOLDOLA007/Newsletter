@@ -11,21 +11,20 @@ function App() {
         items-center
         justify-between-center
         p-24
-
-        `}
+      `}
     >
       
       <h1
-        className="
+        className={`
             text-3xl
             font-bold
-            text-centers
+            text-center
             text-gray-800
-          "
+        `}
       >Choose your plan</h1>
 
       <div
-        className="
+        className={`
           flex
           flex-wrap
           justify-between
@@ -34,7 +33,8 @@ function App() {
           mx-auto
           h-full
           items-center
-        "
+          gap-4
+        `}
       >
         <Card variant="silver"
           title="SILVER"
