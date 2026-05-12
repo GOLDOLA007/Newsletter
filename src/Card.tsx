@@ -9,9 +9,9 @@ interface CardProps{
 export function Card(Props: CardProps){
 
     const styles = {
-        bronze: "border-orange-600 hover:border-orange-500 text-orange-600 hover:shadow-lg w-48 h-48",
-        silver: "border-gray-600 hover:border-gray-500 text-gray-600 hover:shadow-lg w-48 h-48",
-        gold: "border-yellow-600 hover:border-yellow-500 text-yellow-600 hover:shadow-lg w-64 h-64"
+        bronze: "border-orange-600 hover:border-orange-500 text-orange-600 hover:shadow-lg w-48 min-h-48",
+        silver: "border-gray-600 hover:border-gray-500 text-gray-600 hover:shadow-lg w-48 min-h-48",
+        gold: "border-yellow-600 hover:border-yellow-500 text-yellow-600 hover:shadow-lg w-64 min-h-64"
     }
 
     const buttonStyles = {
@@ -80,6 +80,7 @@ export function Card(Props: CardProps){
             <div>
                 <button 
                 className={`
+                        mt-auto
                         w-full
                         ${buttonStyles[Props.variant]}
                         duration-300
