@@ -20,6 +20,9 @@ function App() {
             font-bold
             text-center
             text-gray-800
+            text-4xl
+            mb-4
+            
         `}
       >Choose your plan</h1>
 
