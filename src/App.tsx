@@ -24,7 +24,7 @@ function App() {
         flex
         flex-col
         items-center
-        justify-between-center
+        justify-center
         p-24
       `}
     >
