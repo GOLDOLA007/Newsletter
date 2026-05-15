@@ -47,7 +47,7 @@ function App() {
           flex-wrap
           justify-between
           mt-10
-          max-w-2xl
+          max-w-3xl
           mx-auto
           h-full
           items-center
